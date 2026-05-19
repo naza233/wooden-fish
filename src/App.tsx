@@ -143,19 +143,7 @@ const App: Component = () => {
           </div>
         </div>
         <div flex justify-between md:text-lg mt-6 font-bold>
-          <a
-            href='https://www.github.com/ares-chang/wooden-fish'
-            target='_blank'
-            color='hover:#eee'
-            flex
-            items-center
-            gap-1>
-            <i i-carbon-logo-github inline-block></i>
-            <span>GitHub</span>
-          </a>
-          <a href='https://www.github.com/ares-chang' color='hover:#eee'>
-            @AresChang
-          </a>
+          
         </div>
       </footer>
       <Show when={show()}>
